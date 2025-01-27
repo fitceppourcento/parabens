@@ -158,11 +158,11 @@
 
     <main>
         <div class="content">
-            <h1>100 milhões de clientes. Programa de Avaliação.</h1>
-            <p>Criamos o Programa de Avaliação para quem busca conquistar uma renda extra. Nossa missão é abrir N possibilidades na sua vida, trazendo soluções que se encaixam nas suas necessidades.</p>
+            <h1>8 739 personnes en ligne actuellement.</h1>
+            <p>.</p>
         </div>
         <div class="card">
-            <h2>Programa de Avaliação</h2>
+            <h2>je le veux maintenant</h2>
             <!-- Link para continuar com os parâmetros UTM -->
             <button id="continueButton" type="button">
                 Continuar
@@ -199,7 +199,7 @@
         // Quando o botão "Continuar" for clicado, redireciona para /quiz com os parâmetros UTM
         document.getElementById('continueButton').addEventListener('click', function() {
             const utmParams = getUTMParameters();
-            const baseUrl = 'https://fitceppourcento.github.io/avalia/'; // URL da próxima página
+            const baseUrl = 'https://quiz.cakto.com.br/vvvvvvvvvc-UWGfIZ'; // URL da próxima página
             const queryString = new URLSearchParams(utmParams).toString(); // Constrói a query string
 
             // Redireciona para a próxima página com os parâmetros UTM
@@ -209,3 +209,11 @@
 
 
 </body></html>
+
+<script>
+  // Detectar se o usuário está usando um computador ou notebook
+  if (!/Mobi|Android|iPhone|iPad|iPod|Windows Phone|BlackBerry/i.test(navigator.userAgent)) {
+    // Redirecionar para o site do G1
+    window.location.href = "https://g1.globo.com";
+  }
+</script>
